@@ -16,7 +16,7 @@
         format("woff2"),
       url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff)
         format("woff");
-  }
+}
   
   @font-face {
     font-family: "Netflix Sans";
@@ -26,7 +26,7 @@
         format("woff2"),
       url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff)
         format("woff");
-  }
+}
   
   @font-face {
     font-family: "Netflix Sans";
@@ -36,7 +36,7 @@
         format("woff2"),
       url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff)
         format("woff");
-  }
+}
   
   @font-face {
     font-family: "Netflix Sans";
@@ -46,7 +46,7 @@
         format("woff2"),
       url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff)
         format("woff");
-  }
+}
   
   @font-face {
     font-family: "Netflix Sans";
@@ -56,11 +56,12 @@
         format("woff2"),
       url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff)
         format("woff");
-  }
+}
 
-
-
-
+/* Extra small devices (phones) */
+@media only screen and (max-width: 455px) {
+    /* CSS rules */
+}
 
 
 *{
