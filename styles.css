@@ -316,5 +316,133 @@ nav button{
 .separation{
     height: 8px;
     background-color: rgb(61, 61, 61)
+}
 
+
+.text-col2{
+    flex-basis: 50%; 
+    height: 194px;
+    width: 469px;
+    display:flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+
+.features2{
+    font-size: 16px;
+    height: 641px;
+    width: 1710px;
+    padding: 72px 191px
+
+}
+
+.download{
+    font-size: 50px;
+}
+
+.downloadp{
+    font-size: 24px;
+    margin-top: 16px
+}
+
+.rows2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width:1328px;
+    height: 497px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.text-col3{
+    flex-basis: 50%; 
+    height: 194px;
+    width: 469px;
+    display:flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+
+.features3{
+    font-size: 16px;
+    height: 641px;
+    width: 1710px;
+    padding: 72px 191px
+
+}
+
+.watch{
+    font-size: 50px;
+}
+
+.watchp{
+    font-size: 24px;
+    margin-top: 16px
+}
+
+.rows3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:1328px;
+    height: 497px;
+}
+
+
+
+.text-col4{
+    flex-basis: 50%; 
+    height: 194px;
+    width: 469px;
+    display:flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+
+.features4{
+    font-size: 16px;
+    height: 641px;
+    width: 1710px;
+    padding: 72px 191px;
+
+}
+
+.create{
+    font-size: 50px;
+}
+
+.createp{
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.rows4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width:1328px;
+    height: 497px;
+}
+.questions1{
+    font-size: 50px;
 }
