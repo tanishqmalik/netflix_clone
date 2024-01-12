@@ -506,3 +506,47 @@ nav button{
     width: 920px;
     line-height: 30px;
 }
+
+.big{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    width: 1710px;
+    /* height:4552px; */
+
+}
+
+.s1{
+    height: 32px;
+    width: 1329px;
+    font-size: 16px;
+    opacity: 70%;
+}
+
+.big{
+    display: flex;
+    flex-direction: column;
+    padding: 72px 191px;
+
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .bigbig{
+    width: 1710px;
+    height:4552px;
+} */
+
+.call{
+    font-size: 14px;
+}
+
+
+.c1{
+    margin-top: 10px;
+    opacity: 70%;
+}
