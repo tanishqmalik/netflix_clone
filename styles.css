@@ -183,19 +183,18 @@ nav button{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* position: relative; */
+    position: relative;
     /* padding-top:px; */
     flex-direction: column;
-    top: 50%;
+    /* top: 50%; */
 }
 
 .heading1{
     font-weight:10000;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: bold;
     height: 61px;
     width: 870px;
-    font-size: 48px;
 }
 
 
@@ -217,6 +216,16 @@ nav button{
     /* margin-top: 24px; */
 
     
+}
+
+
+
+.h3whole{
+    display: flex;
+    flex-direction: column;
+    width: 870px;
+    align-items: center;
+    margin-top: 24px;
 }
 .submit{
 
