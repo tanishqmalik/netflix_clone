@@ -82,7 +82,7 @@ body {
     justify-items: center;
     width: 1710px;
     height: 700px;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(images/header-image\(1\).jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.641), rgba(0, 0, 0, 0.659)), url(images/header-image\(1\).jpg);
     background-color: cover;
     background-position: center;
     /* padding: 10px 10px; */
@@ -90,11 +90,17 @@ body {
 
 }
 
+.language_drop_down{
+    background: transparent;
+    border:none;
+    color: #fff;
+}
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 
 .logo{
@@ -137,7 +143,7 @@ nav button{
 .language_b{
     display: inline-flex;
     align-items:center;
-    background: transparent;
+    background: rgba(0,0,0,0.4);
     border: 1px solid  rgba(169, 169, 169, 0.5);
     height: 32px;
     width: 124px;
@@ -147,13 +153,9 @@ nav button{
     cursor:auto;
     font-size: 16px;
     margin-right: 10px;
+    border-radius: 4px;
 }
 
-
-
-.language_b:hover .dropdown-list{
-    display: block;
-}
 
 
 
