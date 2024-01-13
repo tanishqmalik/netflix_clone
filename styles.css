@@ -59,7 +59,7 @@
 }
 
 /* Extra small devices (phones) */
-@media only screen and (max-width: 455px) {
+@media only screen and (max-width: 1px) {
     /* CSS rules */
 }
 
@@ -77,14 +77,17 @@ body {
 }
 
 .header{
-    width: 100%;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 1710px;
+    height: 700px;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(images/header-image\(1\).jpg);
     background-color: cover;
     background-position: center;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
+    text-align: center;
 
-    
 }
 
 nav{
@@ -135,9 +138,12 @@ nav button{
     display: inline-flex;
     align-items:center;
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid  rgba(169, 169, 169, 0.5);
+    height: 32px;
+    width: 124px;
+    text-align: left;
     justify-content: space-between;
-    padding: 4px 33px;
+    padding: 6px 36px;
     cursor:auto;
     font-size: 16px;
     margin-right: 10px;
@@ -169,11 +175,14 @@ nav button{
 } */
 
 .heading{
+    /* height: 234px; */
+    height: 100%;
+    /* width: 870px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:300px;
-    padding-top:px;
+    /* position: relative; */
+    /* padding-top:px; */
     flex-direction: column;
     top: 50%;
 }
@@ -182,17 +191,29 @@ nav button{
     font-weight:10000;
     font-size: 50px;
     font-weight: bold;
+    height: 61px;
+    width: 870px;
+    font-size: 48px;
 }
 
 
 
 .heading2{
+    height: 31px;
+    width: 870px;
+    margin-top: 16px;
     font-weight: 300;
 }
 
 .heading3{
     font-weight: 400;
-    font-size: 23px
+    font-size: 20px;
+    height:30px;
+    width:830px;
+    line-height: 30px;
+    text-align: center;
+    /* margin-top: 24px; */
+
     
 }
 .submit{
@@ -215,9 +236,9 @@ nav button{
     background-color: #a20303;
 }
 
-.heading, .heading2, .heading3{
+/* .heading, .heading2, .heading3{
     padding: 10px;
-}
+} */
 
 .email1{
 
@@ -226,7 +247,7 @@ nav button{
     width: 386px;
     height: 56px;
     border: 1px solid  rgba(169, 169, 169, 0.5);
-    background-color:  rgba(123, 122, 122, 0.5);
+    background-color:  rgba(40, 39, 39, 0.5);
     color: #fff;
     padding: 24px 16px 8px 16px;
     line-height: 30px;
@@ -516,11 +537,19 @@ nav button{
 
 }
 
-.s1{
-    height: 32px;
+
+.sbig{
+    height: 31px;
     width: 1329px;
+}
+.s1{
+    height: 19px;
+    width: 251px;
     font-size: 16px;
     opacity: 70%;
+    cursor: text;
+    margin-bottom: 12px;
+
 }
 
 .big{
@@ -530,7 +559,12 @@ nav button{
 
 }
 
-.c{
+
+
+
+
+
+.c1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -543,10 +577,83 @@ nav button{
 
 .call{
     font-size: 14px;
+    display: flex;
+    margin-top: 16px;
+    opacity: 70%;
+    cursor: pointer;
 }
 
 
-.c1{
+.cc1{
     margin-top: 10px;
     opacity: 70%;
+}
+.f{
+    cursor: pointer;
+}
+
+
+
+
+.c2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.call1{
+    font-size: 14px;
+    display: flex;
+    margin-top: 16px;
+    opacity: 70%;
+    cursor: pointer;
+}
+.ca1{
+    margin-top: 10px;
+    opacity: 70%;
+}
+
+
+
+.c3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.call2{
+    font-size: 14px;
+    display: flex;
+    margin-top: 16px;
+    opacity: 70%;
+    cursor: pointer;
+}
+.cb1{
+    margin-top: 10px;
+    opacity: 70%;
+}
+
+
+
+.c4{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.call3{
+    font-size: 14px;
+    display: flex;
+    margin-top: 16px;
+    opacity: 70%;
+    cursor: pointer;
+}
+.ce1{
+    margin-top: 10px;
+    opacity: 70%;
+}
+
+
+
+
+.c{
+    display: flex;
+    justify-content: space-between;
 }
