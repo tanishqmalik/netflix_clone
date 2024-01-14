@@ -292,6 +292,7 @@ nav button{
     justify-content: center;
     padding: 72px 191px;
     height: 641px;
+    flex-direction: column;
 }
 
 .row{
@@ -668,3 +669,39 @@ nav button{
     display: flex;
     justify-content: space-between;
 }
+
+
+@media only screen and (max-width:413px){
+    .nav1{
+        width: 335px;
+        height: 40px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo{
+        margin-left: 50px;
+        margin-top: 50px;
+        height: 30px;
+    }
+    .button{
+        width:156px;
+        height:32px;
+    }
+    .language_drop_down{
+        width:40px;
+        height:20px;
+
+    }
+    .signin{
+        /* margin: 24px 30px 30px 30px; */
+        width:76.9px;
+        height:32px;
+    }
+    .language_b{
+        width:64px;
+        height: 32px;
+        margin: 20px 20px 20px 20px;
+    }
+    
+}
+    
