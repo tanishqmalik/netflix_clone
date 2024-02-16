@@ -80,7 +80,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    width: 1710px;
+    /* width: 1710px; */
+    width: 100%;
     height: 700px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.641), rgba(0, 0, 0, 0.659)), url(images/header-image\(1\).jpg);
     background-color: cover;
@@ -193,24 +194,27 @@ nav button{
     font-weight:10000;
     font-size: 48px;
     font-weight: bold;
-    height: 61px;
-    width: 870px;
+    width:100%;
+    /* height: 61px;
+    width: 870px; */
 }
 
 
 
 .heading2{
-    height: 31px;
-    width: 870px;
+    width:100%;
+    /* height: 31px;
+    width: 870px; */
     margin-top: 16px;
     font-weight: 300;
 }
 
 .heading3{
+    width:100%;
     font-weight: 400;
     font-size: 20px;
-    height:30px;
-    width:830px;
+    /* height:30px;
+    width:830px; */
     line-height: 30px;
     text-align: center;
     /* margin-top: 24px; */
@@ -223,7 +227,7 @@ nav button{
 .h3whole{
     display: flex;
     flex-direction: column;
-    width: 870px;
+    /* width: 870px; */
     align-items: center;
     margin-top: 24px;
 }
@@ -272,11 +276,54 @@ nav button{
     justify-content: center;
     align-items: center;
     text-align: left;
-    width: 586px;
-    height:56px;
+    /* width: 586px;
+    height:56px; */
     margin-top: 16px;
 }
 
+@media screen and (max-width:627px){
+    .email-signup{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .logo{
+        position: relative;
+        right:100px;
+    }
+    .language_b{
+        position: relative;
+        left:100px;
+    }
+    
+    .signin{
+        position: relative;
+        left: 100px;
+    }
+
+}
+
+
+
+@media screen and (max-width:600px){
+    .logo{
+        position: relative;
+        height: 25px;
+    }
+    .language_b{
+        position: relative;
+        left:100px;
+    }
+    
+    .signin{
+        position: relative;
+        left: 100px;
+    }
+
+}
 
 
 
@@ -486,7 +533,6 @@ nav button{
 .q1,.q2,.q3,.q4,.q5,.q6{
     background-color: #2d2d2d;
     color: #fff;
-    
     padding: 24px;
     transition: background-color 0.3s ease;
     border: 1px solid;
